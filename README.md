@@ -12,6 +12,8 @@ Adayın;
 
 beklenmektedir.
 
+---
+
 Burada kaynak kodu yer alan proje laninayazilim.com üzerinden yayınlanmaktadır. 
 Örn: http://laninayazilim.com/api/applicant/HealthCheck
 
