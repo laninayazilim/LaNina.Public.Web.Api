@@ -38,5 +38,5 @@ Bir ip adresinden aynı anda atılabilecek istek sayısı 10 ile limitlidir.
 
 Bir ip adresinden 10sn içerisinde atılabilecek istek sayısı 10 ile limitlidir.
 
-Kullanım esnasında herhangi bir sorunla karşılaşmanız durumunda Issues bölümünü kullanarak bizi bilgilendirebilirsiniz.
+Kullanım esnasında herhangi bir sorunla karşılaşmanız durumunda [Issues](https://github.com/laninayazilim/LaNina.Public.Web.Api/issues) bölümünü kullanarak bizi bilgilendirebilirsiniz.
 
