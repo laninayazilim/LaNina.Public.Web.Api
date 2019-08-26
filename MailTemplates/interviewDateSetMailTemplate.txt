@@ -1,0 +1,10 @@
+﻿Merhaba {{name}}
+
+Full Stack Yazılım Uzmanlığı pozisyonu için Sinan Taviloğlu ile {{interviewDate}} tarihinde görüşmeniz kaydedilmiştir.
+
+Bu mail haricinde başka bir konfirmasyona ihtiyacın yok, ilgili tarihte seni bekliyoruz.
+
+Görüşmeye metro kullanarak gelmek istersen; 
+"Atatürk Oto Sanayi" istasyonunda inerek "Güney" çıkışını kullanabilirsin. 
+
+"42 Maslak" binasının Ofis B kapısından giriş yapabilirsin.

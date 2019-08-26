@@ -1,0 +1,25 @@
+﻿Merhaba {{name}}
+
+Görüşmemizde bahsi geçen ASP.NET Boilerplate / ASP.NET Zero hakkındaki bilgilere
+aşağıdaki linklerden erişebilirsin.
+
+https://aspnetboilerplate.com/ 
+https://docs.aspnetzero.com/
+
+Senden beklentimiz;
+https://aspnetboilerplate.com/Templates adresinden Angular projesini indirmen
+"Screen" adında bir domain objesi eklemen. Tek bir property si olacak "Name"
+Screen objelerine UI dan erişebilmemiz için sol menüye "Ekranlar" diye bir alan daha eklemen
+ve tıkladığımızda CRUD operasyonlarının tamamını yapacak UI 'ın çalışır halde olması. 
+İngilizce ve Türkçe seçeneklerinde çalışır olmasını bekliyoruz. 
+(https://aspnetboilerplate.com/Pages/Documents/Localization)
+
+Pojeyi tamamladıktan sonra ikinci görüşme için API'yi kullanarak görüşme gün ve saatlerini
+sorgulayabilir senin için uygun olan birini gene API'yi kullanarak seçebilirsin.
+
+Bu işlemler için aşağıdaki anahtarı kullanabilirsin
+
+Applicant Key: {{key}}
+
+Dönüşünü bekliyoruz, görüşmek üzere, iyi çalışmalar.
+
