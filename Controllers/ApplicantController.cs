@@ -286,7 +286,7 @@ namespace Lanina.Public.Web.Api.Controllers
         [HttpGet]
         public IActionResult HealthCheck()
         {
-            return Redirect("https://www.youtube.com/embed/qM0zINtulhM");
+             return Redirect("https://youtu.be/qM0zINtulhM");
         }
 
         [HttpPut]
