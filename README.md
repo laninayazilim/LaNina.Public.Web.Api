@@ -23,7 +23,7 @@ yönlendirmeleri takip ederek başvuru yapabilir ve süreçlerini ilerletebilirl
 ### [Apply](https://github.com/laninayazilim/LaNina.Public.Web.Api/blob/b82992ac75c3e6f8898ceb701e0e7c292ac77aef/Controllers/ApplicantController.cs#L46) 
 Başvurunuzu göndermek için bu metodu kullanabilirsiniz. Doğru şekilde başvuru yapabilmeniz için kodu incelemeniz beklenmektedir.
 
-**Başvurusunu database'de flags tablosunda yer alan herhangi bir key ile yapan adaylar, flag olmadan başvuru yapanlara göre avantajlı olacaklardır. Flag değeri ele geçirebilmek için [ApplicantController.cs](https://github.com/laninayazilim/LaNina.Public.Web.Api/blob/master/Controllers/ApplicantController.cs) içinde yer alan diğer endpointleri de dikkatlice incelemeniz gerekebilir.**
+**Başvurusunu database'de flags tablosunda yer alan herhangi bir key ile yapmak tercih nedeni olacaktır. Flag değeri ele geçirebilmek için [ApplicantController.cs](https://github.com/laninayazilim/LaNina.Public.Web.Api/blob/master/Controllers/ApplicantController.cs) içinde yer alan diğer endpointleri de dikkatlice incelemeniz gerekebilir.**
 
 ### [ConfirmEmail](https://github.com/laninayazilim/LaNina.Public.Web.Api/blob/b82992ac75c3e6f8898ceb701e0e7c292ac77aef/Controllers/ApplicantController.cs#L135) 
 Başvuru sonrası mailinize EmailConfirmationKey gelecek. Bu metodu kullanarak mail adresinizi doğrulamanızı bekliyoruz.
