@@ -5,7 +5,7 @@ Adayın;
 - Erkek ise; askerlik görevini tamamlamış veya muaf olması,
 - Tercihen mühendislik alanında lisans derecesi olması,
 - Teknik dökümanları takip edebilecek seviyede İngilizce bilgisine sahip olması,
-- Bir yıl veya üzerinde profesyonel yazılım geliştirme deneyimi olması,
+- Bir-üç yıl profesyonel yazılım geliştirme deneyimi olması,
 - C#, ASP.NET Core, EF Core, Angular ve MS SQL Server ile proje geliştirme deneyimi olması,
 - Tercihen [ASP.NET Zero](https://aspnetzero.com/) veya [ASP.NET Boilerplate](https://aspnetboilerplate.com) ile proje geliştirme deneyimi olması,
 - Tercihen object-oriented programming, SOLID principles, multi-tenancy, layered architecture, domain driven design, modular design, test automation gibi konularda fikir sahibi olması
