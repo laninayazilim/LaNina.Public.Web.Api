@@ -420,6 +420,11 @@ namespace Lanina.Public.Web.Api.Controllers
             {
                 result = _dbContext.Flags.FromSql("SELECT * FROM Flags WHERE Value = '" + flag + "'").ToList();
             }
+            
+            if (result.Any(f=> !Guid.TryParse(f.Value, out var guid)))
+            {
+                return BadRequest();
+            }
 
             return Ok(result);
         }
