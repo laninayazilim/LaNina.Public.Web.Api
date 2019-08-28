@@ -1,0 +1,11 @@
+﻿Merhaba {{name}}
+
+Firmamıza göstermiş olduğun ilgi için teşekkür ederiz.
+
+Başvurun başarıyla kaydedildi, en kısa zamanda değerlendirip sana dönüş yapacağız.
+
+Başvurunu tamamlamak için tek bir adım kaldı o da mailini doğrulaman.
+
+Mailini doğrulamak için aşağıdaki anahtarı kullanabilirsin.
+
+EmailConfirmationKey: {{emailConfirmationKey}}

@@ -1,0 +1,10 @@
+﻿Merhaba {{name}}
+
+Başvurunu inceledik ve seni daha yakından tanımak için yüzyüze görüşme yapmak istiyoruz.
+
+Eğer iş arayışın halen devam ediyorsa, başvuru yapmak için kullandığın API'yi kullanarak görüşme gün ve saatlerini
+sorgulayabilir senin için uygun olan birini gene API'yi kullanarak seçebilirsin.
+
+Bu işlemler için aşağıdaki anahtarı kullanabilirsin
+
+Applicant Key: {{key}}

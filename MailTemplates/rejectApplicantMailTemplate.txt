@@ -1,0 +1,10 @@
+﻿Merhaba {{name}}
+
+Üzülerek belirtmek isteriz ki başvurunu olumlu değerlendiremedik.
+
+{{reason}}
+
+Şimdiki pozisyon için olumlu değerlendirme yapamayışımız, 
+gelecekte açabileceğimiz diğer pozisyonlar için takipte olmana engel değil.
+
+İlgine teşekkür eder, başarılar dileriz.

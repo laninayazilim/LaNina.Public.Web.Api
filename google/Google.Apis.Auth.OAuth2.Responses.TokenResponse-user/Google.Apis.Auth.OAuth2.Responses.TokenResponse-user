@@ -1,0 +1,9 @@
+{
+	"access_token": "accessToken",
+	"token_type": "Bearer",
+	"expires_in": 3600,
+	"refresh_token": "refreshToken",
+	"scope": "https://www.googleapis.com/auth/calendar",
+	"Issued": "2019-08-22T20:31:48.450+03:00",
+	"IssuedUtc": "2019-08-22T17:31:48.450Z"
+}
