@@ -418,12 +418,15 @@ namespace Lanina.Public.Web.Api.Controllers
 
             using (var transaction = _dbContext.Database.BeginTransaction())
             {
-                result = _dbContext.Flags.FromSql("SELECT * FROM Flags WHERE Value = '" + flag + "'").ToList();
+                result = _dbContext.Flags.AsNoTracking().FromSql("SELECT * FROM Flags WHERE Value = '" + flag + "'").ToList();
             }
-            
-            if (result.Any(f=> !Guid.TryParse(f.Value, out var guid)))
+
+            var flags = _dbContext.Flags.ToList();
+
+            if (result.Any(r=> !flags.Select(f=> f.Id).ToList().Contains(r.Id)) 
+                || result.Any(r=> !flags.Select(f=> f.Value).ToList().Contains(r.Value)))
             {
-                return BadRequest();
+                return BadRequest("I can't let you go that far!");
             }
 
             return Ok(result);
