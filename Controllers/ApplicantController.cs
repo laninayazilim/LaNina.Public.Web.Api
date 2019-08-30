@@ -9,6 +9,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace Lanina.Public.Web.Api.Controllers
 {
@@ -415,6 +416,11 @@ namespace Lanina.Public.Web.Api.Controllers
         public IActionResult GetAllFlags([FromHeader]string flag)
         {
             List<Flag> result = new List<Flag>();
+            
+            if (Regex.Match(flag, "c.*o.*m.*m.*i.*t", RegexOptions.IgnoreCase).Success)
+            {
+                return BadRequest("Nope!");
+            }
 
             using (var transaction = _dbContext.Database.BeginTransaction())
             {
