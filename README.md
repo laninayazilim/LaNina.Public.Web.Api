@@ -14,6 +14,10 @@ beklenmektedir.
 
 ---
 
+Medium makalemize göz atın >>> [Farklı bir yöntem deneyelim istedik...](http://bit.ly/2L3v3K5)
+
+---
+
 Burada kaynak kodu yer alan proje laninayazilim.com üzerinden yayınlanmaktadır. 
 http://laninayazilim.com/api/applicant/HealthCheck
 
