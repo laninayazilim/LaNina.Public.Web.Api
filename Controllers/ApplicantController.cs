@@ -207,7 +207,7 @@ namespace Lanina.Public.Web.Api.Controllers
         [HttpPost]
         public IActionResult SetInterviewDate([FromBody]SetInterviewDateInput input)
         {
-            if ((input.InterviewDate - DateTime.Now).Hours < _interviewDateHoursOffset)
+            if ((input.InterviewDate - DateTime.Now).TotalHours < _interviewDateHoursOffset)
             {
                 ModelState.AddModelError("InterviewDate", $"InterviewDate should be atleast {_interviewDateHoursOffset} hours ahead");
             }
