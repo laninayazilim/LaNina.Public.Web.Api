@@ -1,4 +1,9 @@
-##### 2020-02-20: İşe alım sürecimiz sona ermiştir. Ancak denemek isteyenler için uygulama yayında kalmaya devam edecektir.
+| :mega: Duyurular |
+|--------------|
+| 2020-02-20: İşe alım sürecimiz sona ermiştir. Ancak denemek isteyenler için uygulama yayında kalmaya devam edecektir.|
+
+
+ 
 ---
 
 Yurt dışındaki müşterimize özel digital signage ve out-of-home advertising yazılım çözümleri geliştiren **İstanbul(Avr.) ekibimize** katılarak yazılım geliştirme yaşam döngüsünün her aşamasında sorumluluk alacak, tam zamanlı **“Full Stack - Yazılım Geliştirme Uzmanı”** arayışımız bulunmaktadır.
